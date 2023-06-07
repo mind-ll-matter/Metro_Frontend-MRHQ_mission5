@@ -99,12 +99,23 @@
   position: relative;
 }
 
-// .heart img {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   position: absolute;
-//   top: 45%;
-//   left: 0;
-//   width: 20px;
-// }
+.heartButton {
+  position: absolute;
+  top: 5%;
+  left: 83%;
+  z-index: 1;
+  width: 40px;
+  color: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.heartImg {
+  width: 100%;
+}
+
+.heartButton img:hover {
+  width: 110%;
+  transition: all 0.2s ease-out;
+}

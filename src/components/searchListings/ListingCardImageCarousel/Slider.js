@@ -8,7 +8,7 @@ import Heart from "./Heart";
 
 const len = sliderImage.length - 1;
 
-function Slider(props) {
+function Slider() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [fave, setFave] = useState(false);
 
@@ -24,7 +24,6 @@ function Slider(props) {
 
   return (
     <div className="slider-container">
-      {/* <Heart favourite={fave} onclick={(fave) => setFave(!fave)} /> */}
       <SliderContent activeIndex={activeIndex} sliderImage={sliderImage} />
       <Arrows
         prevSlide={() =>
@@ -39,6 +38,7 @@ function Slider(props) {
         sliderImage={sliderImage}
         onclick={(activeIndex) => setActiveIndex(activeIndex)}
       />
+      <Heart fave={fave} setFave={setFave} />
     </div>
   );
 }

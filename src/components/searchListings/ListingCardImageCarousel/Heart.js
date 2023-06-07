@@ -1,18 +1,18 @@
 import React from "react";
+import styles from "./Slider.scss";
+import { useEffect } from "react";
 import likedEmpty from "../../../assets/Rental Listing Page - Icons/Liked - Empty.png";
 import likedFilled from "../../../assets/Rental Listing Page - Icons/Liked - Filled.png";
-import styles from "./Slider.scss";
 
-const Heart = ({ fave, onclick }) => {
+const Heart = ({ fave, setFave }) => {
+  const handleFaveChange = () => {
+    setFave(!fave);
+    console.log(fave);
+  };
   return (
-    <div className={styles.heart}>
-      <span onClick={() => onclick(fave)}>
-        <img
-          src={`${fave ? likedFilled : likedEmpty}`}
-          alt={`${fave ? "liked" : "ünliked"}`}
-        />
-      </span>
-    </div>
+    <button className="heartButton" onClick={handleFaveChange}>
+      <img className="heartImg" src={fave ? likedFilled : likedEmpty} alt="" />
+    </button>
   );
 };
 

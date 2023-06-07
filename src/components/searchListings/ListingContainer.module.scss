@@ -1,0 +1,16 @@
+@use "../commonComponents/utils" as u;
+@use "../commonComponents/colors" as c;
+@use "../commonComponents/styles" as s;
+* {
+  box-sizing: border-box;
+}
+
+.listingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: u.toRem(15);
+  flex-wrap: wrap;
+  padding-left: s.$outerPadding;
+  padding-right: s.$outerPadding;
+}

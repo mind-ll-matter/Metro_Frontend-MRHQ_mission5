@@ -1,0 +1,45 @@
+@use "../commonComponents/utils" as u;
+@use "../commonComponents/colors" as c;
+@use "../commonComponents/styles" as s;
+* {
+  box-sizing: border-box;
+}
+
+.sortBy {
+  padding-left: s.$outerPadding;
+  padding-right: s.$outerPadding;
+  padding-top: u.toRem(20);
+  padding-bottom: u.toRem(20);
+  & > form {
+    display: flex;
+    flex-direction: row;
+    gap: u.toRem(10);
+    align-items: center;
+
+    & > label {
+      font-size: u.toRem(14);
+    }
+
+    & > select {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+
+      padding: 6px;
+      padding-bottom: 4px;
+      padding-right: 60px;
+
+      background: url("../../assets/Rental Listing Page - Icons/Drop down arrow.png");
+      background-repeat: no-repeat, repeat;
+      background-position: right 1em top 50%, 0 0;
+      background-size: 1.5em auto, 100%;
+
+      border-color: c.$lightGrey;
+      font-size: u.toRem(14);
+    }
+
+    & > select::-ms-expand {
+      display: none;
+    }
+  }
+}

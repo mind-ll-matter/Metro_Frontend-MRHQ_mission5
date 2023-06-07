@@ -1,0 +1,62 @@
+@use "../commonComponents/utils" as u;
+@use "../commonComponents/colors" as c;
+@use "../commonComponents/styles" as s;
+* {
+  box-sizing: border-box;
+}
+
+.listingCard {
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: left;
+  border: 2px solid c.$lightGrey;
+  margin-bottom: u.toRem(25);
+  padding-top: u.toRem(16);
+  padding-bottom: u.toRem(16);
+  padding-right: u.toRem(12);
+  padding-left: u.toRem(12);
+}
+
+.listingCardDescription {
+  margin-top: u.toRem(8);
+  margin-bottom: u.toRem(8);
+  text-align: left;
+  margin-left: u.toRem(8);
+}
+.listingCardDescription p {
+  margin: 0;
+  display: flex;
+}
+
+.address,
+.pricepw {
+  font-weight: 700;
+  font-size: large;
+}
+.suburbCity {
+  font-weight: 400;
+  font-size: medium;
+}
+.buildingType {
+  font-weight: 400;
+  font-size: medium;
+}
+
+.descriptionBottom {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 12px;
+  & .bedCount,
+  .bathCount,
+  .parkingCount {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    gap: 4px;
+    & img {
+      width: 20px;
+    }
+  }
+}

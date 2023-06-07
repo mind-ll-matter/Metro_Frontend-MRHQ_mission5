@@ -1,0 +1,41 @@
+.headerCommon {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4.375rem;
+  padding-right: 4.375rem;
+  align-items: center;
+}
+
+.rightSideHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 1.875rem;
+  align-items: center;
+}
+.rightSideHeader .nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.rightSideHeader .nav__li {
+  list-style: none;
+}
+.rightSideHeader .nav__li__a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.rightSideHeader .nav__li__a:hover {
+  color: #82888c;
+}
+.rightSideHeader .signin {
+  height: 50px;
+  width: 6.25rem;
+  color: #ffffff;
+  background-color: #e73336;
+  border: none;
+  font-weight: 600;
+}
+.rightSideHeader .signin:hover {
+  background-color: #1a1a1a;
+} /*# sourceMappingURL=HeaderCommon.module.css.map */

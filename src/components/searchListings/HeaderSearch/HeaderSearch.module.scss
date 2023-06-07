@@ -1,0 +1,106 @@
+@use "../../commonComponents/utils" as u;
+@use "../../commonComponents/colors" as c;
+@use "../../commonComponents/styles" as s;
+* {
+  box-sizing: border-box;
+}
+
+.headerSearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: u.toRem(8);
+  padding-left: s.$outerPadding;
+  padding-right: s.$outerPadding;
+  padding-top: u.toRem(15);
+  padding-bottom: u.toRem(20);
+  border-bottom: u.toRem(2) solid c.$lightGrey;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.searchBar {
+  flex: 1;
+  & > form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: u.toRem(8);
+
+    & input {
+      height: u.toRem(50);
+      flex: 1;
+      padding-top: 0;
+      padding-bottom: 0;
+      border: u.toRem(2) solid c.$lightGrey;
+      text-indent: u.toRem(10);
+    }
+    & .searchButton {
+      background-color: c.$red;
+      border: u.toRem(2) solid c.$red;
+      width: fit-content;
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      width: u.toRem(70);
+      height: u.toRem(50);
+
+      & img {
+        // width: fit-content;
+        // height: fit-content;
+        width: u.toRem(30);
+        height: u.toRem(30);
+        transform: scaleX(-1);
+      }
+    }
+  }
+}
+
+.filterButton {
+  border: u.toRem(2) solid c.$red;
+  background-color: c.$white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: u.toRem(50);
+  gap: u.toRem(10);
+  padding-left: u.toRem(10);
+  padding-right: u.toRem(10);
+  & > img {
+    width: u.toRem(25);
+    // height: u.toRem(20);
+  }
+  & > p {
+    color: c.$red;
+    font-weight: bold;
+  }
+}
+
+.mapButton {
+  border: u.toRem(2) solid c.$lightGrey;
+  background-color: c.$white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: u.toRem(50);
+  gap: u.toRem(10);
+  padding-left: u.toRem(20);
+  padding-right: u.toRem(20);
+  & > img {
+    width: u.toRem(30);
+    // height: u.toRem(20);
+  }
+  & > p {
+    color: c.$black;
+    font-weight: 600;
+  }
+}

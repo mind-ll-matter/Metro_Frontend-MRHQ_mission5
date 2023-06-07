@@ -1,0 +1,110 @@
+@use "../../commonComponents/utils" as u;
+@use "../../commonComponents/colors" as c;
+@use "../../commonComponents/styles" as s;
+* {
+  box-sizing: border-box;
+}
+
+// :root {
+//   --heights: 50vh;
+//   --widths: 100%;
+// }
+
+.slider-container {
+  position: relative;
+  width: 260px;
+  height: 200px;
+}
+
+.active {
+  display: inline-block;
+}
+
+.inactive {
+  display: none;
+}
+
+.slides {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+}
+
+.arrows img {
+  width: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.arrows img:hover {
+  width: 25px;
+  transition: all 0.3s ease-out;
+}
+
+.slider-container:hover .arrows img {
+  display: flex;
+}
+
+.all-dots {
+  display: flex;
+  top: -15%;
+  justify-content: center;
+  z-index: 200;
+  position: relative;
+}
+
+.dot {
+  cursor: pointer;
+  height: 0.7rem;
+  width: 0.7rem;
+  margin: 0px 3px;
+  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.slider-container:hover .dot:hover {
+  background-color: c.$lightGrey;
+  transition: all 0.2s ease-in;
+}
+
+.active-dot {
+  background-color: c.$white;
+}
+
+// .slider-container:hover .dot {
+//   background-color: rgba(0, 47, 255, 0.3);
+// }
+
+.sliderContent {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+// .heart img {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   position: absolute;
+//   top: 45%;
+//   left: 0;
+//   width: 20px;
+// }

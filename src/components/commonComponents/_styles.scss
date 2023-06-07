@@ -1,0 +1,4 @@
+// @import "./_utils.module.scss";
+@use "utils" as u;
+
+$outerPadding: u.toRem(70);

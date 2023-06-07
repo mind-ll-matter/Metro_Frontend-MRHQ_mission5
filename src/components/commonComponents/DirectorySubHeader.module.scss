@@ -1,0 +1,57 @@
+@use "./utils" as u;
+@use "./colors" as c;
+@use "./styles" as s;
+* {
+  box-sizing: border-box;
+}
+
+.directorySubHeader {
+  padding-left: s.$outerPadding;
+  padding-right: s.$outerPadding;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: u.toRem(30);
+  align-items: center;
+  border-bottom: u.toRem(2) solid c.$lightGrey;
+  padding-top: u.toRem(8);
+  padding-bottom: u.toRem(8);
+  & .nav {
+    & ul {
+      display: flex;
+      flex-direction: row;
+      gap: u.toRem(10);
+      align-items: center;
+      padding-left: 0;
+      margin: 0;
+    }
+    & li {
+      display: flex;
+      list-style: none;
+      align-items: bottom;
+
+      & a {
+        font-size: u.toRem(14);
+        text-decoration: none;
+        // font-weight: 600;
+        color: c.$darkGrey;
+        &:hover {
+          color: c.$lightGrey;
+        }
+      }
+      & a.currentPage {
+        text-decoration: none;
+        font-weight: 600;
+        color: c.$black;
+        &:hover {
+          color: c.$darkGrey;
+        }
+      }
+      & img {
+        transform: rotate(-90deg);
+        height: u.toRem(15);
+      }
+    }
+  }
+}

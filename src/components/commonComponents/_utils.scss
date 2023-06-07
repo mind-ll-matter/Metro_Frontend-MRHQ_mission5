@@ -1,0 +1,14 @@
+// we use "sass:math" then "math.div" instead of "/" because "/" is discouraged because it is used as a separator in sass.
+@use "sass:math";
+
+@function toRem($value) {
+  @return (math.div($value, 16)) + rem;
+}
+
+@mixin flexCenter($direction) {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}

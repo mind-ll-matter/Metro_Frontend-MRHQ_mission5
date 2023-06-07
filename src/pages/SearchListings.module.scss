@@ -1,0 +1,11 @@
+@use "../components/commonComponents/utils" as u;
+@use "../components/commonComponents/colors" as c;
+@use "../components/commonComponents/styles" as s;
+* {
+  box-sizing: border-box;
+}
+
+.headerSearch {
+  position: sticky;
+  top: 0;
+}

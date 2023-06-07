@@ -11,7 +11,11 @@ const Heart = ({ fave, setFave }) => {
   };
   return (
     <button className="heartButton" onClick={handleFaveChange}>
-      <img className="heartImg" src={fave ? likedFilled : likedEmpty} alt="" />
+      <img
+        className={`heartImg ${fave === true && "noShadow"}`}
+        src={fave ? likedFilled : likedEmpty}
+        alt=""
+      />
     </button>
   );
 };

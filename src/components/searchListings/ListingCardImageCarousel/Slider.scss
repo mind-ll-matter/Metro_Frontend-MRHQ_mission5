@@ -46,13 +46,13 @@
 }
 
 .arrows img {
-  width: 20px;
+  width: 30px;
   display: none;
   cursor: pointer;
 }
 
 .arrows img:hover {
-  width: 25px;
+  width: 35px;
   transition: all 0.3s ease-out;
 }
 
@@ -109,6 +109,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  filter: drop-shadow(0 2px 3px black);
 }
 
 .heartImg {
@@ -118,4 +119,8 @@
 .heartButton img:hover {
   width: 110%;
   transition: all 0.2s ease-out;
+}
+
+.noShadow {
+  filter: none;
 }

@@ -9,7 +9,7 @@ import { AiOutlineHome } from 'react-icons/ai'
 // import service4 from '../../assets/services/service4.png'
 const Services = () => {
     return (
-        <section className="text-[#1A1A1A] body-font w-11/12 mx-auto">
+        <section className="text-[#1A1A1A] body-font w-11/12 mx-auto mt-auto">
             <div className="container px-5 py-24 mx-auto">
                 <div className="text-center mb-20">
                     <h1 className="sm:text-3xl text-3xl font-medium title-font text-semibold font-Roboto mb-4">We offer a range of services</h1>

@@ -32,11 +32,11 @@
     transition-duration: 300ms;
   }
   
-  /* Set the gray background on hover */
+  /* Set the gray background on hover 
   .bg-gray-500 {
     background-color: #ccc;
   }
-  
+  */
   .bg-opacity-0 {
     background-color: transparent;
   }

@@ -1,7 +1,6 @@
-import React from 'react';
+//import React from 'react';
 import './Propertites.css'
-
-import property1 from '../../../assets/properties/p1.jpg'
+import property1 from '../../../assets/properties/property1.jpeg'
 import property2 from '../../../assets/properties/property2.jpeg'
 import property3 from '../../../assets/properties/property3.jpg'
 import property4 from '../../../assets/properties/property4.jpg'
@@ -10,8 +9,7 @@ import property6 from '../../../assets/properties/property6.jpg'
 
 const Properties = () => {
     return (
-        <div className=' my-16'>
-
+        <div className=' my-16 '>
             <h1 className='text-center text-3xl font-bold text-black my-12 tracking-wider font-Roboto'>Everything covered for all your property needs</h1>
             <div className='flex  items-center justify-center'>
                 <div className='grid grid-cols-1 800px:grid-cols-2 gap-5'>

@@ -21,11 +21,11 @@ const Header = () => {
                         </div>
 
                         <div className='flex items-center justify-center ml-5 space-x-4 text-[14px] font-[600] uppercase'>
-                            <Link className={` text-black cursor-pointer tracking-wider`} to={"/"}>Home</Link>
-                            <Link className={` text-black cursor-pointer tracking-wider`} to={"/"}>Services</Link>
-                            <Link className={` text-black cursor-pointer tracking-wider`} to={"/"}>News</Link>
-                            <Link className={` text-black cursor-pointer tracking-wider`} to={"/"}>About</Link>
-                            <Link className={` text-black cursor-pointer tracking-wider`} to={"/"}>Contact Us</Link>
+                            <Link className={` text-black cursor-pointer tracking-wider hover:bg-red-500 hover:text-white px-4 py-2`}to={"/"}>Home</Link>
+                            <Link className={` text-black cursor-pointer tracking-wider hover:bg-red-500 hover:text-white px-4 py-2`}to={"/"}>Services</Link>
+                            <Link className={` text-black cursor-pointer tracking-wider hover:bg-red-500 hover:text-white px-4 py-2`} to={"/"}>News</Link>
+                            <Link className={` text-black cursor-pointer tracking-wider hover:bg-red-500 hover:text-white px-4 py-2`} to={"/"}>About</Link>
+                            <Link className={` text-black cursor-pointer tracking-wider hover:bg-red-500 hover:text-white px-4 py-2`} to={"/"}>Contact Us</Link>
                             <Link className={` text-black cursor-pointer`} to={"/"}>
                                 <button
                                     type="button"

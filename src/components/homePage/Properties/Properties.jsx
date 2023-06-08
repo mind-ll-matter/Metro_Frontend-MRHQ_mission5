@@ -1,20 +1,12 @@
 import React from "react";
 import "./Propertites.css";
 
-// import property1 from "../../../assets/properties/p1.jpg";
-// import property2 from "../../../assets/properties/property2.jpeg";
-// import property3 from "../../../assets/properties/property3.jpg";
-// import property4 from "../../../assets/properties/property4.jpg";
-// import property5 from "../../../assets/properties/property5.jpg";
-// import property6 from "../../../assets/properties/property6.jpg";
-
-const property1 = "../../../assets/properties/p1.jpg";
-const property2 = "../../../assets/properties/property2.jpeg";
-// const property2 = "images/Home Page - Images/image 2.jpg";
-const property3 = "../../../assets/properties/property3.jpg";
-const property4 = "../../../assets/properties/property4.jpg";
-const property5 = "../../../assets/properties/property5.jpg";
-const property6 = "../../../assets/properties/property6.jpg";
+import property1 from "../../../assets/properties/p1.jpg";
+import property2 from "../../../assets/properties/property2.jpeg";
+import property3 from "../../../assets/properties/property3.jpg";
+import property4 from "../../../assets/properties/property4.jpg";
+import property5 from "../../../assets/properties/property5.jpg";
+import property6 from "../../../assets/properties/property6.jpg";
 
 const Properties = () => {
   return (

@@ -1,0 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+:local * {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+:local .gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:local .thumbnails {
+  display: flex;
+}
+
+:local .thumbnail {
+  width: 192px;
+  height: 108px;
+  margin: 19px;
+  cursor: pointer;
+}
+
+:local .main_image {
+  margin-top: 10px;
+}
+
+:local #main_image {
+  width: 1344px;
+  height: 756px;
+} */

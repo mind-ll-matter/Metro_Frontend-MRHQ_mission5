@@ -1,52 +1,5 @@
 /* Set the size and positioning of the photo div */
 .relative {
-<<<<<<< HEAD
-    position: relative;
-  }
-  
-  .absolute {
-    position: absolute;
-  }
-  
-  .inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  
-  /* Set the background image of the photo div */
-  .bg-cover {
-    background-size: cover;
-  }
-  
-  .bg-center {
-    background-position: center;
-  }
-  
-  /* Set the transition effect on hover */
-  .transition-all {
-    transition-property: all;
-  }
-  
-  .duration-300 {
-    transition-duration: 300ms;
-  }
-  
-  /* Set the gray background on hover 
-  .bg-gray-500 {
-    background-color: #ccc;
-  }
-  */
-  .bg-opacity-0 {
-    background-color: transparent;
-  }
-  
-  .hover:bg-opacity-30:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
-=======
   position: relative;
 }
 
@@ -91,4 +44,3 @@
 .hover:bg-opacity-30:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
->>>>>>> 30318caba9b8d542ed634e16f726050a7fb3002e

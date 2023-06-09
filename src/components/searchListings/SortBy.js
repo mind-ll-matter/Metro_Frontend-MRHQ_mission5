@@ -6,7 +6,7 @@ const SortBy = () => {
     <div className={styles.sortBy}>
       <form>
         <label for="sort">Sort By:</label>
-        <select id="cars" name="cars">
+        <select id="sort-listings" name="sort-listings">
           <option value="featured">Featured</option>
           <option value="highest price">Highest Price</option>
           <option value="lowest price">Lowest Price</option>

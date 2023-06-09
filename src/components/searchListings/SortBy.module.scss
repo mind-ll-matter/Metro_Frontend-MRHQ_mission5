@@ -34,7 +34,8 @@
       background-position: right 1em top 50%, 0 0;
       background-size: 1.5em auto, 100%;
 
-      border-color: c.$lightGrey;
+      border: 2px solid c.$lightGrey;
+      border-radius: 5px;
       font-size: u.toRem(14);
     }
 

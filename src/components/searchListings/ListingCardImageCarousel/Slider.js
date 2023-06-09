@@ -1,26 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SliderContent from "./SliderContent";
 import Dots from "./Dots";
 import Arrows from "./Arrows";
-import sliderImage from "./sliderImage";
 import "./Slider.scss";
 import Heart from "./Heart";
 
-const len = sliderImage.length - 1;
-
-function Slider() {
+function Slider({ sliderImage, listingId }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [fave, setFave] = useState(false);
 
-  //   useEffect(() => {
-  //     const interval = setInterval(() => {
-  //       setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
-  //     }, 5000);
-  //     return () => clearInterval(interval);
-  //   }, [activeIndex]);
-  // useEffect(() => {
-  //   setFave(false);
-  // }, []);
+  const len = sliderImage.length - 1;
+  console.log("sliderImage is ", sliderImage);
 
   return (
     <div className="slider-container">
@@ -38,7 +28,7 @@ function Slider() {
         sliderImage={sliderImage}
         onclick={(activeIndex) => setActiveIndex(activeIndex)}
       />
-      <Heart fave={fave} setFave={setFave} />
+      <Heart listingId={listingId} fave={fave} setFave={setFave} />
     </div>
   );
 }

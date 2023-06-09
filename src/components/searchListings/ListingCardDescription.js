@@ -17,7 +17,6 @@ const ListingCardDescription = ({
 }) => {
   const navigate = useNavigate();
   const navigateToListing = (e) => {
-    console.log("e is ", e);
     e.preventDefault();
     navigate(`listing/${listingId}`);
   };

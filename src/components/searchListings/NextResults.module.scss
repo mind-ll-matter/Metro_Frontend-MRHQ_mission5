@@ -1,0 +1,43 @@
+@use "../commonComponents/utils" as u;
+@use "../commonComponents/colors" as c;
+@use "../commonComponents/styles" as s;
+* {
+  box-sizing: border-box;
+}
+
+.nextResults {
+  margin-left: s.$outerPadding;
+  margin-bottom: u.toRem(50);
+  margin-top: u.toRem(20);
+  .pageSelectButtons {
+    display: flex;
+    gap: u.toRem(24);
+    font-weight: 600;
+    margin-bottom: u.toRem(24);
+    position: relative;
+    align-items: baseline;
+    & .currentPage {
+      background-color: c.$red;
+      width: u.toRem(35);
+      height: u.toRem(35);
+      color: c.$white;
+      border-radius: 50%;
+    }
+    & .notCurrentPage {
+    }
+    & .nextButton {
+      width: u.toRem(80);
+      height: u.toRem(35);
+      background-color: c.$red;
+      color: c.$white;
+      font-weight: normal;
+    }
+    & .threeDots {
+      text-align: bottom;
+    }
+  }
+  & .nextResultsTotal {
+    color: c.$darkGrey;
+    font-size: small;
+  }
+}

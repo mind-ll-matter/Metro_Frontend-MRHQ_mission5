@@ -4,18 +4,20 @@ import HeaderSearch from "../components/searchListings/HeaderSearch/HeaderSearch
 import DirectorySubHeader from "../components/commonComponents/DirectorySubHeader";
 import SortBy from "../components/searchListings/SortBy";
 import ListingContainer from "../components/searchListings/ListingContainer";
-import styles from "./SearchListings.module.scss";
+// import styles from "./SearchListings.module.scss";
+import Footer from "../components/homePage/layout/Footer";
+import NextResults from "../components/searchListings/NextResults";
 
 const SearchListings = () => {
   return (
     <div>
-      <div className="searchPageHeader">
-        <HeaderCommon />
-        <HeaderSearch />
-        <DirectorySubHeader />
-        <SortBy />
-        <ListingContainer />
-      </div>
+      <HeaderCommon />
+      <HeaderSearch />
+      <DirectorySubHeader />
+      <SortBy />
+      <ListingContainer />
+      <NextResults />
+      <Footer />
     </div>
   );
 };

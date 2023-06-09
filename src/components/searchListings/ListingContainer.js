@@ -12,7 +12,6 @@ const ListingContainer = () => {
     fetch(`${API_URL}`)
       .then((res) => res.json())
       .then((jsonRes) => {
-        console.log("here is the jsonRes", jsonRes);
         addToListingArray(jsonRes);
       });
   }, []);
@@ -27,14 +26,14 @@ const ListingContainer = () => {
       listingsArray.map((listing) => {
         return (
           <ListingCard
-            sliderImage={listing.image_urls}
+            sliderImage={listing.images}
             listingId={listing._id}
             address={listing.street_address}
-            subrurbCity={listing.suburb_city}
+            subrurbCity={listing.city}
             bedrooms={listing.bedrooms}
             bathrooms={listing.bathrooms}
-            parking={listing.carparks}
-            pricepw={listing.pricepw}
+            parking={listing.car_parks}
+            pricepw={listing.price_pw}
             buildingType={listing.building_type}
           />
         );

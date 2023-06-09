@@ -6,7 +6,6 @@ import likedFilled from "../../../assets/Rental Listing Page - Icons/Liked - Fil
 const Heart = ({ fave, setFave }) => {
   const handleFaveChange = () => {
     setFave(!fave);
-    console.log(fave);
   };
   return (
     <button

@@ -6,8 +6,10 @@ const ListingContainer = () => {
   const [listingsArray, setListingsArray] = useState([]);
   const [content, setContent] = useState(<></>);
 
+  const API_URL = process.env.REACT_APP_API_URL;
+
   useEffect(() => {
-    fetch("http://localhost:4000/api/listings/")
+    fetch(`${API_URL}`)
       .then((res) => res.json())
       .then((jsonRes) => {
         console.log("here is the jsonRes", jsonRes);

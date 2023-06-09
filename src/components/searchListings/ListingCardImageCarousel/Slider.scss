@@ -47,7 +47,7 @@
 }
 
 .arrows img {
-  width: 30px;
+  width: 35px;
   display: none;
   cursor: pointer;
 }
@@ -65,14 +65,14 @@
   display: flex;
   top: -15%;
   justify-content: center;
-  z-index: 200;
+  // z-index: 200;
   position: relative;
 }
 
 .dot {
   cursor: pointer;
-  height: 0.7rem;
-  width: 0.7rem;
+  height: 0.9rem;
+  width: 0.9rem;
   margin: 0px 3px;
   background-color: transparent;
   background-color: rgba(255, 255, 255, 0.4);
@@ -89,10 +89,6 @@
   background-color: c.$white;
 }
 
-// .slider-container:hover .dot {
-//   background-color: rgba(0, 47, 255, 0.3);
-// }
-
 .sliderContent {
   display: flex;
   width: 100%;
@@ -104,7 +100,7 @@
   position: absolute;
   top: 5%;
   left: 83%;
-  z-index: 1;
+  // z-index: 199;
   width: 40px;
   color: none;
   background-color: transparent;

@@ -25,6 +25,7 @@ const ListingCard = ({
         parking={parking}
         pricepw={pricepw}
         buildingType={buildingType}
+        listingId={listingId}
       />
     </div>
   );

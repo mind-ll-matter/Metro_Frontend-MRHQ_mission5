@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import SearchListings from "./pages/SearchListings";
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/search/" element={<SearchListings />} />
-        <Route path="/listing/" element={<IndividualListing />} />
+        <Route path="/listing/:id" element={<IndividualListing />} />
       </Routes>
     </div>
   );

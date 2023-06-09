@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+:local * {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+:local h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+:local h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+:local h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+:local h4 {
+  font-size: 16px;
+}
+
+/* Header class styling */
+:local .header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 75px 10px 65px;
+}
+
+/* Styling for the logo inside the header */
+:local .logo {
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: flex-start;
+}
+
+/* Styling for navigation bar in header */
+:local .navigation {
+  font-size: 20px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+:local h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+:local h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+:local h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+:local .navitem {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+  padding: 15px 15px;
+  background-image: linear-gradient(#1a1a1a, #1a1a1a);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+
+:local .navitem:hover {
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+/* Styling for Signin button */
+:local .signin {
+  text-decoration: none;
+  background-color: #e73336;
+  color: #ffffff;
+  padding: 15px 28px;
+  border-radius: 0px;
+  margin-left: 30px;
+  background-image: linear-gradient(#1a1a1a, #1a1a1a);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+
+:local .signin:hover {
+  background-size: 100% 100%;
+  color: #ffffff;
+  transition: 0.7s;
+}
+
+:local .returnbar {
+  padding-left: 65px;
+  position: sticky;
+  top: 0;
+  height: 55px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 3px 10px 0px #e3e3e3;
+  -webkit-box-shadow: 0px 3px 10px 0px #e3e3e3;
+  -moz-box-shadow: 0px 3px 10px 0px #e3e3e3;
+}
+
+:local .return {
+  font-size: 16px;
+  font-weight: 4050;
+  padding: 15px;
+  border-color: #e3e3e3;
+  border-width: 1px;
+}
+
+:local .return:hover {
+  cursor: pointer;
+}
+
+:local .filteredpath {
+  margin: 0px 75px 0px 65px;
+  border-color: #e3e3e3;
+  border-radius: 3px;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+:local .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* Add any additional styles for the sticky behavior */
+}

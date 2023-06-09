@@ -1,0 +1,337 @@
+/* ▼importing from the google the Roboto font selected by our UX/UI */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+*{
+  font-family: Roboto;
+  font-size:  20px;}
+  
+  h1{
+    font-size: 42;
+    font-weight: bold;
+  }
+  
+  h2{
+    font-size: 32;
+    font-weight: 500;
+  }
+  
+  h3{
+    font-size: 26;
+    font-weight: 500;
+  }
+
+  h4{ /*'caption-text'*/
+    font-size: 16;
+  }
+
+/* ▼ Header class Styling  */
+.header {    
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 75px 10px 65px;
+  }
+
+  /*  ▼ Styling for the logo inside Hearder */
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: flex-start;
+  }
+
+  /* ▼ Styling for navigation bar in header */
+  .navigation {
+    font-size: 20px;
+    align-items: center;
+    justify-content: flex-end;   /*pushing the navigation bar towards the right side of the HEADER flexbox, redundancy meassi*/
+    
+  }
+
+h1{
+  font-size: 42;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 32;
+  font-weight: 500;
+}
+
+h3{
+  font-size: 26;
+  font-weight: 500;
+}
+
+
+  .navitem{
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none; /* removing standard underline of links (HTML1 style) */
+    color: inherit; /*making linkj inherit color of parent element */
+    padding: 15px 15px;
+
+    background-image: linear-gradient(#1a1a1a, #1a1a1a);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+  }
+
+  .navitem:hover{
+    background-size: 100% 100%;
+    color: #fff;
+  }
+
+  /* ▼ Styling for Signin button*/
+  .signin {
+    text-decoration: none; /* removing standard underline of links (HTML1 style) */
+    background-color: #e73336;
+    color: #ffffff;
+    /* font-weight: bold; */
+    padding: 15px 28px;
+    border-radius: 0px;
+    margin-left: 30px;
+    background-image: linear-gradient(#1a1a1a, #1a1a1a);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+  }
+
+  .signin:hover {
+    background-size: 100% 100%;
+    color: #ffffff;
+    transition: 0.7s;
+  }
+
+  .returnbar{
+    padding-left: 65px;
+    position: sticky;
+    top: 0;
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px 10px 0px #e3e3e3;
+    -webkit-box-shadow:  0px 3px 10px 0px #e3e3e3;
+    -moz-box-shadow:  0px 3px 10px 0px #e3e3e3;
+    }
+    
+.return{
+  font-size: 16px;
+  font-weight: 4050;
+  padding: 15px;
+  border-color: #E3e3e3;
+  border-width: 1px;
+  }
+
+.return:hover{
+        cursor: pointer;  
+}
+
+.filteredpath {
+    padding: .5rem;
+    display: flex;
+    gap: .5rem;
+}
+
+  sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* Add any additional styles for the sticky behavior */
+  }
+
+/*  ▲  Returning bar & FIltered Search click*/
+/*  ▼   Gallery and Thumbnaiuls*/
+  .gallery {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .thumbnails {
+    display: flex;
+  }
+  
+  .thumbnail {
+    width: 192px;
+    height: 108px;
+    margin: 19px;
+    cursor: pointer;
+  }
+  
+  .main-image {
+    /* border: solid 1px green; */
+    margin-top: 10px;
+  }
+  
+  #main-image {
+    width: 1344px;
+    height: 756px;
+  } 
+
+  .bottom_section {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 75px 10px 65px;
+  }
+
+.listing_icon{
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap; */
+    width: 60px;
+    height: 60px;
+}
+
+.icons_top, .icons_mid  {   
+   display: flex;
+   padding-bottom: 30px;
+}
+
+.location_map-div{ 
+
+  width: 100%;
+  border-top: 1px solid #e3e3e3 ;
+  padding-top: 20px;
+  
+    
+}
+.data_section{
+  width:700px
+}
+.map_listing{
+  width: 805px;
+  height: 439px;
+}
+.property_features-icon{
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+.icons_bot {
+    justify-content: center;
+  align-items: center;
+}
+
+.viewing_dates-div{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e3e3e3; 
+  padding: 5px 5px 0px 15px;
+}
+.add2plan{
+  color: #e73336; /* Red font color */
+  font-weight: bold;
+  border: 2px solid #e73336; /* Red border */
+  background-color: #ffffff; /* White background */
+  margin: 40px 0px 40px 180px;
+  padding: 10px 90px; 
+  font-size: 16px; /* Adjust font size according to your needs */
+  height: 40px;
+}
+
+.viewing_request-btn{
+  background-color: #e73336;
+  color: #ffffff;
+  /* font-weight: bold; */
+  padding: 10px 80px;
+  border-color: #e73336 ;
+  border: 2px solid;
+  margin-bottom: 120px;
+}
+.getintouch{
+  position: sticky;
+  top: 200px;
+  
+}
+
+.contact{
+  width:35 0px;
+  border: 1px solid #e3e3e3; 
+  padding: 5px 15px 0px 25px;
+  margin: 20px;
+  box-shadow :5px 5px 25px 3px #e3e3e3;
+  -webkit-box-shadow: 5px 5px 25px 3px #e3e3e3;
+  -moz-box-shadow: 5px 5px 25px 3px #e3e3e3;
+}
+
+.contact_agent-btn{
+  background-color: #e73336;
+  color: #ffffff;
+  /* font-weight: bold; */
+  padding: 10px 80px;
+  border-color: #e73336 ;
+  border: 2px solid;
+  margin-bottom: 20px;
+}
+
+.apply_for_property-btn{
+  color: #e73336; /* Red font color */
+  font-weight: bold;
+  border: 2px solid #e73336; /* Red border */
+  background-color: #ffffff; /* White background */
+  margin:0px 50px;
+  padding: 0px 75px;
+  font-size: 16px; /* Adjust font size according to your needs */
+  height: 40px;
+}
+
+.report_listing-link{
+  color: #e73336;;
+}
+
+sticky { /*This sticky is meant only for the GET IN TOUCH part, not SEARCH*/
+  position: fixed;
+  top: 250px;
+  margin:60px;
+  width: 100%;  
+}
+
+footer{ 
+    background-color: #82888c;
+    
+}
+.footer_email{
+padding: 20px;
+}
+.footer_elements{
+padding: 50px 0px;
+border-top: 1px solid #e3e3e3 ;
+border-bottom: 1px solid #e3e3e3 ;
+
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+align-content: center;
+margin-left: 12%;
+margin-right: 12%;
+}
+
+
+.foot{
+color: white;
+width:25%
+}
+
+.foot_header{
+font-weight: bold;
+}
+.address{
+flex-wrap: wrap;
+color: white;
+width:35%
+}
+
+.media_icons{
+width: 30px;
+height: 30px;
+padding: 15px 15px;
+
+}

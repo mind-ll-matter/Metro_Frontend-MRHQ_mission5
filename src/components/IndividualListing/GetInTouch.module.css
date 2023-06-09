@@ -1,0 +1,32 @@
+/* 
+:local .viewing_dates-div {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e3e3e3;
+    padding: 5px 5px 0px 15px;
+  }
+  
+  :local .add2plan {
+    color: #e73336;
+    font-weight: bold;
+    border: 2px solid #e73336;
+    background-color: #ffffff;
+    margin: 40px 0px 40px 180px;
+    padding: 10px 90px;
+    font-size: 16px;
+    height: 40px;
+  }
+  
+  :local .viewing_request-btn {
+    background-color: #e73336;
+    color: #ffffff;
+    padding: 10px 80px;
+    border-color: #e73336;
+    border: 2px solid;
+    margin-bottom: 120px;
+  }
+  
+  :local .report_listing-link {
+    color: #e73336;
+  }
+   */

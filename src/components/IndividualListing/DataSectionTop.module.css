@@ -1,0 +1,27 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+:local * {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+:local .listing_icon {
+    
+    width: 60px;
+    height: 60px;
+  }
+
+  :local .location_map-div {
+    width: 100%;
+    border-top: 1px solid #e3e3e3;
+  }
+  
+  :local .data_section {
+    width: 700px;
+  }
+  
+  :local .map_listing {
+    width: 805px;
+    height: 439px;
+  }
+   */

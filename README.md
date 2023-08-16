@@ -33,7 +33,7 @@
 <h3 align="center">Metro Property Redesign</h3>
 
   <p align="center">
-  A redesign of the Metro Property Listings, using React, SCSS, Docker and MongoDB. Completed with a team of 2 designers and 3 developers.
+  A redesign of the Metro Property Management, using React, SCSS, Docker and MongoDB. Completed with a team of 2 designers and 3 developers.
   </p>
   <br/>
   <br/>

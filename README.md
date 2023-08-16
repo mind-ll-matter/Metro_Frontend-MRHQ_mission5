@@ -30,11 +30,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<h3 align="center">Metro Redesign - Frontend</h3>
+<h3 align="center">Metro Property Redesign</h3>
 
   <p align="center">
-    This was a redesign created by our UX/UI team of 2. Our team of 3, including myself, then turned the wireframe into a responsive web app using React.js, TypeScript, Node.js, SCSS, Docker and MongoDB. A separate repo was created for the [backend](https://github.com/thetergus/Mission5_G3).
-
+  A redesign of the Metro Property Listings, using React, SCSS, Docker and MongoDB. Completed with a team of 2 designers and 3 developers.
   <img src="./project-images/metro-home.png" alt="home"/>
   <br/>
   <img src="./project-images/metro-search.png" alt="search"/>
@@ -76,9 +75,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `mind-ll-matter`, `Metro_Frontend-MRHQ_mission5`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Metro Redesign - Frontend`, `project_description`
+This was a redesign created by our UX/UI team of 2. Our team of 3, including myself, then turned the wireframe into a responsive web app using React.js, TypeScript, Node.js, SCSS, Docker and MongoDB. A separate repo was created for the [backend](https://github.com/thetergus/Mission5_G3).
 
 
 

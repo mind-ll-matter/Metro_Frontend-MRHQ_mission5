@@ -34,6 +34,7 @@
 
   <p align="center">
   A redesign of the Metro Property Listings, using React, SCSS, Docker and MongoDB. Completed with a team of 2 designers and 3 developers.
+  <br/>
   <img src="./project-images/metro-home.png" alt="home"/>
   <br/>
   <img src="./project-images/metro-search.png" alt="search"/>

@@ -39,7 +39,7 @@
   <br/>
   <img src="./project-images/metro-search.png" alt="search"/>
   <br/>
-  <img src="./project-images/metro-single-listing" alt="single listing"/>
+  <img src="./project-images/metro-single-listing.png" alt="single listing"/>
   </p>
 </div>
 

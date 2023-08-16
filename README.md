@@ -39,7 +39,9 @@
   <br/>
   <img src="./project-images/metro-home.png" alt="home"/>
   <br/>
+  <br/>
   <img src="./project-images/metro-search.png" alt="search"/>
+  <br/>
   <br/>
   <img src="./project-images/metro-single-listing.png" alt="single listing"/>
 </div>

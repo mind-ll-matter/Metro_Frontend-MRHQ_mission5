@@ -36,6 +36,7 @@
   A redesign of the Metro Property Listings, using React, SCSS, Docker and MongoDB. Completed with a team of 2 designers and 3 developers.
   </p>
   <br/>
+  <br/>
   <img src="./project-images/metro-home.png" alt="home"/>
   <br/>
   <img src="./project-images/metro-search.png" alt="search"/>
@@ -76,7 +77,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This was a redesign created by our UX/UI team of 2. Our team of 3, including myself, then turned the wireframe into a responsive web app using React.js, TypeScript, Node.js, SCSS, Docker and MongoDB. A separate repo was created for the [backend](https://github.com/thetergus/Mission5_G3).
+This was a redesign created by our UX/UI team of 2. Our team of 3 developers, including myself, then turned the wireframe into a responsive web app using React.js, TypeScript, Node.js, SCSS, Docker and MongoDB. A separate repo was created for the [backend](https://github.com/thetergus/Mission5_G3).
 
 
 
@@ -168,6 +169,10 @@ Project Link: [https://github.com/mind-ll-matter/Metro_Frontend-MRHQ_mission5](h
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
+
+### Our UX/UI Team
+* [Renee M.]
+* [Zoe Y.]
 
 ### Our Dev Team
 * [AJ](https://github.com/mind-ll-matter)

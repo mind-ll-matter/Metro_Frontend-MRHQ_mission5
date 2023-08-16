@@ -176,8 +176,8 @@ Project Link: [https://github.com/mind-ll-matter/Metro_Frontend-MRHQ_mission5](h
 ## Acknowledgments
 
 ### Our UX/UI Team
-* [Renee M.]
-* [Zoe Y.]
+* Renee M.
+* Zoe Y.
 
 ### Our Dev Team
 * [AJ](https://github.com/mind-ll-matter)

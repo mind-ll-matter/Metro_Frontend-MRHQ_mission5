@@ -113,8 +113,11 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 * yarn
-* docker
-* mongodb
+  ```sh
+  npm install --global yarn
+  ```
+* [docker](https://docs.docker.com/get-docker/)
+* [mongodb](https://www.mongodb.com/docs/manual/installation/)
 
 ### Installation
 

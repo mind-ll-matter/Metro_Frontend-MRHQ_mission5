@@ -30,23 +30,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/mind-ll-matter/Metro_Frontend-MRHQ_mission5">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">Metro Redesign - Frontend</h3>
 
   <p align="center">
     This was a redesign created by our UX/UI team of 2. Our team of 3, including myself, then turned the wireframe into a responsive web app using React.js, TypeScript, Node.js, SCSS, Docker and MongoDB. A separate repo was created for the [backend](https://github.com/thetergus/Mission5_G3).
-    <br />
-    <a href="https://github.com/mind-ll-matter/Metro_Frontend-MRHQ_mission5"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/mind-ll-matter/Metro_Frontend-MRHQ_mission5">View Demo</a>
-    ·
-    <a href="https://github.com/mind-ll-matter/Metro_Frontend-MRHQ_mission5/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/mind-ll-matter/Metro_Frontend-MRHQ_mission5/issues">Request Feature</a>
+
+  <img src="./project-images/metro-home.png" alt="home"/>
+  <br/>
+  <img src="./project-images/metro-search.png" alt="search"/>
+  <br/>
+  <img src="./project-images/metro-single-listing" alt="single listing"/>
   </p>
 </div>
 
